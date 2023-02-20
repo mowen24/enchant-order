@@ -16,7 +16,73 @@ var data = {
                 "turtle_shell"
             ]
         },
-
+		"Alleviating": {
+			"levelMax": "1",
+			"weight": "2",
+			"incompatible": [
+				"Mending",
+				"Reforming"
+			],
+			"items": [
+				"helmet",
+				"chestplate",
+				"leggings",
+				"boots"
+			]
+		},
+		"Launch": {
+			"levelMax": "2",
+			"weight": "1",
+			"incompatible": [
+				"Knockback"
+			],
+			"items": [
+				"sword"
+			]
+		},
+		"Reforming": {
+			"levelMax": "1",
+			"weight": "2",
+			"incompatible": [
+				"Infinity",
+				"Mending",
+				"Alleviating"
+			],
+			"items": [
+				"helmet",
+				"chestplate",
+				"leggings",
+				"boots",
+				"sword",
+				"axe",
+				"pickaxe",
+				"shovel",
+				"bow"
+			]
+		},
+		"Shockwave": {
+			"levelMax": "4",
+			"weight": "1",
+			"incompatible": [
+				"Feather Falling"
+			],
+			"items": [
+				"boots"
+			]
+		},
+		"Vengeance": {
+			"levelMax": "3",
+			"weight": "4",
+			"incompatible": [
+				"Thorns"
+			],
+			"items": [
+				"helmet",
+				"chestplate",
+				"leggings",
+				"boots"
+			]
+		},
         "Aqua Affinity": {
             "levelMax": "1",
             "weight": "2",
@@ -95,7 +161,7 @@ var data = {
             "levelMax": "4",
             "weight": "1",
             "incompatible": [
-                ""
+                "Shockwave"
             ],
             "items": [
                 "boots"
@@ -174,7 +240,8 @@ var data = {
             "levelMax": "1",
             "weight": "4",
             "incompatible": [
-                "Mending"
+                "Mending",
+				"Reforming"
             ],
             "items": [
                 "bow"
@@ -235,7 +302,8 @@ var data = {
             "levelMax": "1",
             "weight": "2",
             "incompatible": [
-                "Infinity"
+                "Infinity",
+				"Alleviating"
             ],
             "items": [
                 "helmet",
@@ -421,7 +489,7 @@ var data = {
             "levelMax": "3",
             "weight": "4",
             "incompatible": [
-                ""
+                "Vengeance"
             ],
             "items": [
                 "helmet",
