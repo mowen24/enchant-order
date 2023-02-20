@@ -303,7 +303,8 @@ var data = {
             "weight": "2",
             "incompatible": [
                 "Infinity",
-				"Alleviating"
+				"Alleviating",
+                "Reforming"
             ],
             "items": [
                 "helmet",
