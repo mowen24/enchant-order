@@ -170,7 +170,8 @@ var data = {
             "levelMax": "3",
             "weight": "2",
             "incompatible": [
-                "Frost Walker"
+                "Frost Walker",
+                "Leaping"
             ],
             "items": [
                 "boots"
@@ -253,7 +254,8 @@ var data = {
             "levelMax": "2",
             "weight": "2",
             "incompatible": [
-                "Depth Strider"
+                "Depth Strider",
+                "Leaping"
             ],
             "items": [
                 "boots"
