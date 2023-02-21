@@ -16,6 +16,39 @@ var data = {
                 "turtle_shell"
             ]
         },
+        "Leaping": {
+            "levelMax": "1",
+            "weight": "2",
+            "incompatible": [
+                "Depth Strider",
+                "Frost Walker"
+            ],
+            "items": [
+                "boots"
+            ]
+        },
+        "Acquisition": {
+            "levelMax": "1",
+            "weight": "1",
+            "incompatible": [
+                ""
+            ],
+            "items": [
+                "pickaxe",
+                "axe",
+                "shovel"
+            ]
+        },
+        "Stepping": {
+            "levelMax": "1",
+            "weight": "2",
+            "incompatible": [
+                ""
+            ],
+            "items": [
+                "boots"
+            ]
+        },
 		"Alleviating": {
 			"levelMax": "1",
 			"weight": "2",
